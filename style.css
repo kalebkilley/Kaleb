@@ -126,3 +126,14 @@ h4 {
 }
 
 /* body ends */
+/* media querys begin */
+@media only screen and (max-width: 600px) {
+  .imagegrid {
+    grid-template-columns: 1fr;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 1000px) {}
+
+/* media querys end */
